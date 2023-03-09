@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.lawlab.git.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.lawlab.git.MyBundle
 
 class MyApplicationService {
 
