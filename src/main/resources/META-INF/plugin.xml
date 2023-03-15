@@ -1,18 +1,11 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.lawlab.git</id>
-    <name>IntelliJ Platform Plugin GIT</name>
-    <vendor>law-lab</vendor>
+    <name>Genshin Impact Theme</name>
+    <vendor>Lawrence-Lab</vendor>
 
     <depends>com.intellij.modules.platform</depends>
-
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.lawlab.git.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.lawlab.git.services.MyProjectService"/>
+        <themeProvider id="com.github.law-lab" path="/themes/GIT.theme.json"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.lawlab.git.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>

@@ -1,0 +1,45 @@
+{
+  "author": "Lawrence",
+  "dark": false,
+  "name": "Genshin Impact Theme",
+  "editorScheme": "/themes/GitSh.xml",
+  "colors": {
+    "goldenST": "#FFCC33",
+    "goldenSTB": "#ffde93",
+    "backgroundST": "#ECE5D8",
+    "buttomBackST": "#D3BC8E"
+  },
+  "ui": {
+    "Component.focusedBorderColor": "buttomBackST",
+    "List.selectionBackground": "buttomBackST",
+    "List.hoverBackground": "buttomBackST",
+    "List.dropLineColor": "goldenSTB",
+    "List.background": "backgroundST",
+    "List.selectionInactiveBackground": "buttomBackST",
+    "Label.background": "goldenST",
+    "ComboBox.selectionBackground":"goldenST",
+    "Menu.selectionBackground": "buttomBackST",
+    "MenuItem.selectionBackground": "goldenST",
+    "MenuBar.shadow": "backgroundST",
+    "Table.background": "backgroundST",
+    "Table.selectionBackground": "buttomBackST",
+    "WelcomeScreen.Projects.selectionBackground": "goldenST",
+    "WelcomeScreen.Projects.actions.background": "goldenSTB",
+    "WelcomeScreen.Projects.actions.selectionBackground": "backgroundST",
+    "Button": {
+      "startBackground": "buttomBackST",
+      "default.startBorderColor": "goldenSTB",
+      "default.startBackground": "buttomBackST",
+      "default.endBackground": "goldenST",
+      "default.focusedBorderColor": "buttomBackST",
+      "default.endBorderColor": "goldenSTB"
+    },
+    "windowBorder": "goldenSTB"
+  },
+  "background": {
+    "anchor": "middle_left",
+    "fill": "scale",
+    "transparency": 20,
+    "image": "images/wallhaven-28g879.jpg"
+  }
+}

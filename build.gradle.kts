@@ -43,8 +43,9 @@ intellij {
 
 // Configure Gradle Changelog Plugin - read more: https://github.com/JetBrains/gradle-changelog-plugin
 changelog {
+    version.set(properties("pluginVersion"))
+    path.set("${project.projectDir}/CHANGELOG.md")
     groups.set(emptyList())
-    repositoryUrl.set(properties("pluginRepositoryUrl"))
 }
 
 // Configure Gradle Qodana Plugin - read more: https://github.com/JetBrains/gradle-qodana-plugin
@@ -72,7 +73,7 @@ tasks {
 
         // Extract the <!-- Plugin description --> section from README.md and provide for the plugin's manifest
         pluginDescription.set(
-            file("README.md").readText().lines().run {
+            file("${project.projectDir}/README.md").readText().lines().run {
                 val start = "<!-- Plugin description -->"
                 val end = "<!-- Plugin description end -->"
 

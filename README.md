@@ -16,11 +16,12 @@
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
-
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
-
-To keep everything working, do not remove `<!-- ... -->` sections. 
+- 我超 原!!
+- Whether you are or not: 
+- As far as we can see, looking at it by and large, taking one time with another,
+in terms of the average of Genshin Impact elements, then in the final analysis it is probably true to say,
+that at the end of the day, in general terms, you would probably find that, use conspicuous theme like this one,
+there probably wasn't very much in it one way or the other. As far as one can see at this stage. 
 <!-- Plugin description end -->
 
 ## Installation
